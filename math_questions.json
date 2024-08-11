@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "intent": "integral.calculate",
+      "examples": [
+        "como calcular a integral de x?",
+        "qual a fórmula da integral definida?",
+        "o que é uma integral indefinida?",
+        "me fale sobre a integral de uma função?",
+        "quais são os tipos de integrais?"
+      ],
+      "responses": [
+        "A integral de x em relação a x é (x²/2) + C, onde C é a constante de integração.",
+        "A fórmula da integral definida é ∫[a,b] f(x) dx = F(b) - F(a), onde F é a antiderivada de f.",
+        "Uma integral indefinida é uma função que descreve a área sob a curva de uma função f(x), sem limites definidos.",
+        "A integral de uma função f(x) é o processo de encontrar uma função F(x) cuja derivada seja f(x).",
+        "Existem dois principais tipos de integrais: integrais definidas e indefinidas."
+      ]
+    },
+    {
+      "intent": "trigonometry.sine",
+      "examples": [
+        "o que é seno em trigonometria?",
+        "como calcular o seno de um ângulo?",
+        "quais são as funções trigonométricas básicas?",
+        "me explique a tangente?",
+        "qual é a relação entre seno e cosseno?"
+      ],
+      "responses": [
+        "O seno de um ângulo é a razão entre o comprimento do cateto oposto e a hipotenusa em um triângulo retângulo.",
+        "O cosseno de um ângulo é a razão entre o comprimento do cateto adjacente e a hipotenusa em um triângulo retângulo.",
+        "As funções trigonométricas básicas são seno, cosseno e tangente.",
+        "A tangente de um ângulo é a razão entre o seno e o cosseno desse ângulo: tan(θ) = sin(θ) / cos(θ).",
+        "A relação entre seno e cosseno é dada pela identidade:\nsin²(θ) + cos²(θ) = 1."
+      ]
+    },
+    {
+      "intent": "algebra.solve",
+      "examples": [
+        "como resolver uma equação algébrica?",
+        "quais são as propriedades das equações algébricas?",
+        "o que é uma equação linear?",
+        "me explique a equação quadrática.",
+        "qual é a fórmula de Bhaskara?"
+      ],
+      "responses": [
+        "Para resolver uma equação algébrica, você deve isolar a variável desconhecida e encontrar seu valor.",
+        "As propriedades das equações algébricas incluem a propriedade distributiva, associativa e comutativa.",
+        "Uma equação linear é uma equação de primeiro grau que pode ser expressa na forma ax + b = 0.",
+        "Uma equação quadrática é uma equação de segundo grau da forma ax² + bx + c = 0.",
+        "A fórmula de Bhaskara é usada para resolver equações quadráticas e é dada por:\n x = (-b ± √(b² - 4ac)) / 2a."
+      ]
+    },
+    {
+      "intent": "equations.solve",
+      "examples": [
+        "como resolver uma equação?",
+        "quais são os tipos de equações?",
+        "o que é uma equação linear?",
+        "como encontrar as raízes de uma equação?",
+        "me explique a equação de segundo grau."
+      ],
+      "responses": [
+        "Para resolver uma equação, você deve manipular a equação para isolar a variável desconhecida.",
+        "Os tipos de equações incluem lineares, quadráticas, cúbicas, e polinomiais.",
+        "Uma equação linear é uma equação que representa uma linha reta no plano cartesiano.",
+        "Para encontrar as raízes de uma equação, você deve resolver a equação para encontrar os valores que tornam a equação verdadeira.",
+        "A equação de segundo grau tem a forma ax² + bx + c = 0 e pode ser resolvida usando a fórmula de Bhaskara(x = (-b ± √(b² - 4ac)) / 2a)."
+      ]
+    },
+    {
+      "intent": "sqrt.calculate",
+      "examples": [
+        "como calcular a raiz quadrada de um número?",
+        "qual a definição de raiz quadrada?",
+        "me fale sobre propriedades das raízes quadradas.",
+        "como simplificar uma raiz quadrada?",
+        "qual é a raiz quadrada de 144?"
+      ],
+      "responses": [
+        "Para calcular a raiz quadrada de um número, você deve encontrar um valor que, quando multiplicado por ele mesmo, resulta no número dado.",
+        "A raiz quadrada de um número é um valor que, quando elevado ao quadrado, resulta no número original.",
+        "Propriedades das raízes quadradas incluem: √(a*b) = √a * √b e √(a²) = a.",
+        "Para simplificar uma raiz quadrada, você pode fatorar o número em fatores primos e então simplificar.",
+        "A raiz quadrada de 144 é 12."
+      ]
+    },
+    {
+      "intent": "derivative.definition",
+      "examples": [
+        "o que é uma derivada?",
+        "como calcular a derivada de uma função?",
+        "quais são as regras de diferenciação?",
+        "o que é a regra do produto em derivadas?",
+        "como encontrar a derivada de x²?"
+      ],
+      "responses": [
+        "A derivada de uma função representa a taxa de variação da função em relação a uma variável.",
+        "Para calcular a derivada de uma função, você aplica as regras de diferenciação como a regra do poder, regra do produto, e a regra da cadeia.",
+        "Algumas regras de diferenciação incluem: regra do poder, regra do produto, e regra da cadeia.",
+        "A regra do produto afirma que a derivada do produto de duas funções é dada por: (f*g)' = f'*g + f*g'.",
+        "A derivada de x² é 2x."
+      ]
+    },
+    {
+      "intent": "logarithm.definition",
+      "examples": [
+        "o que é um logaritmo?",
+        "como calcular o logaritmo de um número?",
+        "qual é a base do logaritmo comum?",
+        "como simplificar logaritmos?",
+        "me explique a propriedade dos logaritmos."
+      ],
+      "responses": [
+        "O logaritmo é a potência à qual um número fixo, chamado base, deve ser elevado para obter outro número.",
+        "Para calcular o logaritmo de um número, você deve encontrar a base e a potência necessária para obter o número desejado.",
+        "A base do logaritmo comum é 10, e o logaritmo natural tem base e.",
+        "Para simplificar logaritmos, você pode usar propriedades como log(a*b) = log(a) + log(b) e log(a/b) = log(a) - log(b).",
+        "Propriedades dos logaritmos incluem: log(a*b) = log(a) + log(b) e log(a^b) = b*log(a)."
+      ]
+    },
+    {
+      "intent": "ln.definition",
+      "examples": [
+        "o que é um logaritmo natural?",
+        "como calcular o logaritmo natural de um número?",
+        "qual é a base do logaritmo natural?",
+        "como simplificar logaritmos naturais?",
+        "quais são as propriedades do logaritmo natural?"
+      ],
+      "responses": [
+        "O logaritmo natural é um tipo de logaritmo com base e, onde e é aproximadamente 2.71828.",
+        "Para calcular o logaritmo natural de um número, você pode usar a função ln em uma calculadora ou software matemático.",
+        "A base do logaritmo natural é o número e, que é aproximadamente 2.71828.",
+        "Para simplificar logaritmos naturais, você pode usar propriedades semelhantes aos logaritmos comuns, como ln(a*b) = ln(a) + ln(b).",
+        "Propriedades do logaritmo natural incluem: ln(a*b) = ln(a) + ln(b) e ln(a^b) = b*ln(a)."
+      ]
+    },
+
+    {
+        "intent": "greeting.bye",
+        "examples": [
+            "até logo",
+            "vou almoçar e já volto",
+            "tchau"
+        ],
+        "responses": [
+            "até!",
+            "tudo bem, nos vemos depois (;",
+            "tchau!"
+        ]
+    }
+  ]
+}
