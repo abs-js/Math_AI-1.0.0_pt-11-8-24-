@@ -1,5 +1,5 @@
 {
-  "name": "a-mia-inan",
+  "name": "IA para matemática",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.3.2",
     "node-nlp": "^4.27.0",
