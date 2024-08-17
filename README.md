@@ -12,10 +12,10 @@ assim os pacotes necessários serão rapidamente instalados(sertifiqui-see de qu
 
 ### passo 2/3: usar
 para começar a usar o Math_AI, use npm test/start e começe a perguntar.<br>
-NOTAS:
-    1. se o resultado da pergunta for "undefined", é porquê o tipo de pergunta feita ainda não foi implermentada pela IA(pode ser figura de linguajem, erro de digitação, etc.)
-    2. respeite a ordem de respostas: espere a IA responder antes que digite
-    3. alerte nos comentários se ouver um bug, e colocarei em /issues para ser avisado
+NOTAS:<br>
+    1. se o resultado da pergunta for "undefined", é porquê o tipo de pergunta feita ainda não foi implermentada pela IA(pode ser figura de linguajem, erro de digitação, etc.)<br>
+    2. respeite a ordem de respostas: espere a IA responder antes que digite<br>
+    3. alerte nos comentários se ouver um bug, e colocarei em /issues para ser avisado<br>
 
 ### passo 3/3: compartilhar
 igual citado antes, crie mais respostar/perguntas para o arquivo JSON e compartilhe-o para melhor experiência de usoários
